@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'screens/add_member.dart';
 import 'screens/member_list.dart';
 
+
 void main() async {
+  
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(MaterialApp(
@@ -17,6 +19,7 @@ void main() async {
 }
 
 class HomePage extends StatelessWidget {
+  
   const HomePage({super.key});
 
   @override
